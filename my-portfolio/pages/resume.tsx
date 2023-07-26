@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <main className="bg-black min-h-screen" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
        
-      <div className="max-w-3xl mx-auto p-8 text-white">
+      <div className="max-w-3xl mx-auto p-8 text-white font-mono">
         <Head>
           <title>Jacob Jones - Resume</title>
         </Head>
