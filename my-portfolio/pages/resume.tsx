@@ -1,18 +1,34 @@
 // pages/resume.js
 
 import Head from 'next/head';
+import Link from 'next/link';
+import Image from 'next/image';
 import 'tailwindcss/tailwind.css';
 
 
 const Resume = () => {
   return (
     <main className="bg-black min-h-screen" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
-       
-      <div className="max-w-3xl mx-auto p-8 text-white font-mono">
-        <Head>
+      <Head>
           <title>Jacob Jones - Resume</title>
-        </Head>
+      </Head>
+       <div className="flex items-center w-1/2 ">
+                <Link href="/" className="text-white text-lg font-mono m-4 group rounded-lg border border-transparent px-3 py-1 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "> {/* Use Link to navigate back to the home page (you can adjust the href accordingly) */}
+                   <Image
+                      className="relative dark:drop-shadow-[0_0_0.35rem_#ff0303] "
+                      src="/jjj.png"
+                      alt="JJ Logo"
+                      width={80}
+                      height={80}
+                      priority
+                    />
+                </Link>
+      </div>
+      <div className="max-w-3xl mx-auto p-8 text-white font-mono">
+        
+        
         <header className="mb-8">
+          
           <h1 className="text-4xl font-bold mb-2 text=white">JACOB JONES</h1>
           <p>genjacob20@gmail.com | 361-585-9668 | 802 Purdue Rd., Corpus Christi, TX, 78418 | LinkedIN</p>
         </header>
