@@ -11,6 +11,7 @@ const projects = [
       videoUrl: '/path/to/your/project2_video_url.mp4', // Replace with the actual video URL
       gifUrl: '/path/to/your/project2_gif_url.gif', // Replace with the actual GIF URL
     },
+   
     // Add more project data as needed
   ];
   

@@ -8,7 +8,7 @@ import 'tailwindcss/tailwind.css';
 
 const Resume = () => {
   return (
-    <main className="bg-black min-h-screen" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
+    <main className="bg-black max-h-screen" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
       <Head>
           <title>Jacob Jones - Resume</title>
       </Head>
@@ -24,7 +24,7 @@ const Resume = () => {
                     />
                 </Link>
       </div>
-      <div className="max-w-3xl mx-auto p-8 text-white font-mono">
+      <div className="max-w-3xl h-4/6 mx-auto p-8 pt-0 text-white font-mono overflow-y-auto  ">
         
         
         <header className="mb-8">
