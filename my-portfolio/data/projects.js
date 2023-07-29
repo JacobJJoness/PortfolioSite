@@ -1,18 +1,19 @@
 const projects = [
     {
-      title: 'Project 1',
-      description: 'Description for Project 1',
+      title: 'Portfolio Website',
+      description: 'This website was created with a minimal and simplistic design in mind. I used React based technologies NextJs and Tailwindcss to create this project.',
       videoUrl: '/path/to/your/project1_video_url.mp4', // Replace with the actual video URL
       gifUrl: '/path/to/your/project1_gif_url.gif', // Replace with the actual GIF URL
     },
     {
-      title: 'Project 2',
-      description: 'Description for Project 2',
+      title: 'Tamucc Shell',
+      description: 'A shell written in C. The shell utilizes multi-threading, and can preform all actions that a normal shell is capable of.',
       videoUrl: '/path/to/your/project2_video_url.mp4', // Replace with the actual video URL
       gifUrl: '/path/to/your/project2_gif_url.gif', // Replace with the actual GIF URL
     },
    
     // Add more project data as needed
+    //Future NOTE: Add a link to a corresponding github repository.
   ];
   
   export default projects;

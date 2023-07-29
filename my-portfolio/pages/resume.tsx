@@ -8,7 +8,9 @@ import 'tailwindcss/tailwind.css';
 
 const Resume = () => {
   return (
-    <main className="bg-black max-h-screen" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
+    //Comment is for using a background image. Paste into line below to use a image
+    // style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}
+    <main className="bg-black h-screen bg-black" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
       <Head>
           <title>Jacob Jones - Resume</title>
       </Head>
@@ -24,7 +26,7 @@ const Resume = () => {
                     />
                 </Link>
       </div>
-      <div className="max-w-3xl h-4/6 mx-auto p-8 pt-0 text-white font-mono overflow-y-auto  ">
+      <div className="max-w-screen h-5/6 ml-8 p-8 p-8 pt-0 text-white font-mono overflow-y-auto scrollbar-hide  ">
         
         
         <header className="mb-8">

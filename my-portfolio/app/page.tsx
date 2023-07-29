@@ -45,7 +45,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            Visit the Jones Archives to see a compilation of my best works.
           </p>
         </Link>
 
@@ -60,7 +60,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Check out my resume and please feel free to reach out by phone or email.
           </p>
         </Link>
 
