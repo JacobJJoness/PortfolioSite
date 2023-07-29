@@ -1,34 +1,39 @@
-import React from 'react'
-import Image from 'next/image';
-import Link from 'next/link';
 
-function Navbar() {
+import Link from 'next/link';
+import Image from 'next/image';
+
+const Navbar = () => {
   return (
-    
-    <div className="flex items-center w-screen ">
-        <Link href="/" className="text-white text-lg font-mono m-4  group rounded-lg border border-transparent px-3 py-1 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "> {/* Use Link to navigate back to the home page (you can adjust the href accordingly) */}
+    <nav className="flex items-center justify-between p-4 bg-transparent">
+      {/* Link with Image (Top Left) */}
+      <div className="flex items-center">
+        <Link href="/">
             <Image
-            className="relative dark:drop-shadow-[0_0_0.35rem_#ff0303] "
-            src="/jjj.png"
-            alt="JJ Logo"
-            width={80}
-            height={80}
-            priority
+                className="h-8 w-8"
+                src="/jjj.png"
+                alt="JJ Logo"
+                width={80}
+                height={80}
+                priority
             />
         </Link>
-        <div className="justify-end flex-row">
-            <Link href="/" className="text-white text-lg font-mono m-4 group rounded-lg border border-transparent px-3 py-1 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "> {/* Use Link to navigate back to the home page (you can adjust the href accordingly) */}
-                Github
-            </Link>
-            <Link href="/" className="text-white text-lg font-mono m-4 group rounded-lg border border-transparent px-3 py-1 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "> {/* Use Link to navigate back to the home page (you can adjust the href accordingly) */}
-                Github
-            </Link>
-        </div>
-        
+        {/* Add additional text or elements here if needed */}
+      </div>
 
+      {/* Links (Right Hand Side) */}
+      <div className="flex items-center space-x-16 pr-8">
+        {/* First Github Link */}
+        <Link className="text-white font-mono" href="/https://www.linkedin.com/in/jacob-jones-b5bb8220b/">
+          LinkedIn
+        </Link>
 
-    </div>
-  )
-}
+      
+        <Link className="text-white font-mono" href="/github-link2">
+          Github
+        </Link>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
