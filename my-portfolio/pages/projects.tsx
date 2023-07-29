@@ -3,7 +3,8 @@
 import 'tailwindcss/tailwind.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+
+import Navbar from '@/components/Navbar';
 
 // Replace this with your actual project data
 import projects from '../data/projects';
@@ -11,18 +12,8 @@ import projects from '../data/projects';
 const ProjectsPage = () => {
   return (
     <div className="bg-black min-h-screen py-1 px-1 ">
-        <div className="flex items-center w-1/2 ">
-                <Link href="/" className="text-white text-lg font-mono m-4 group rounded-lg border border-transparent px-3 py-1 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 "> {/* Use Link to navigate back to the home page (you can adjust the href accordingly) */}
-                   <Image
-                      className="relative dark:drop-shadow-[0_0_0.35rem_#ff0303] "
-                      src="/jjj.png"
-                      alt="JJ Logo"
-                      width={80}
-                      height={80}
-                      priority
-                    />
-                </Link>
-        </div>
+      <Navbar/>
+        
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl text-white font-mono mb-8">The Jones Archives</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
