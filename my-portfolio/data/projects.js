@@ -8,8 +8,8 @@ const projects = [
     {
       title: 'Tamucc Shell',
       description: 'A shell written in C. The shell utilizes multi-threading, and can preform all actions that a normal shell is capable of.',
-      videoUrl: '/path/to/your/project2_video_url.mp4', // Replace with the actual video URL
-      gifUrl: '/path/to/your/project2_gif_url.gif', // Replace with the actual GIF URL
+      videoUrl: '@/public/TamuccShell.mp4', // Replace with the actual video URL
+      gifUrl: '@/public/tamuccGif.gif', // Replace with the actual GIF URL
     },
    
     // Add more project data as needed
