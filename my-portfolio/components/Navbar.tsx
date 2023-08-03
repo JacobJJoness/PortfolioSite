@@ -23,12 +23,12 @@ const Navbar = () => {
       {/* Links (Right Hand Side) */}
       <div className="flex items-center space-x-16 pr-8">
         {/* First Github Link */}
-        <Link className="text-white font-mono" href="/https://www.linkedin.com/in/jacob-jones-b5bb8220b/">
+        <Link className="text-white font-mono" href="https://www.linkedin.com/in/jacob-jones-b5bb8220b/">
           LinkedIn
         </Link>
 
       
-        <Link className="text-white font-mono" href="/github-link2">
+        <Link className="text-white font-mono" href="https://github.com/JacobJJoness">
           Github
         </Link>
       </div>

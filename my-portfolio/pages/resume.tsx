@@ -11,14 +11,14 @@ const Resume = () => {
   return (
     //Comment is for using a background image. Paste into line below to use a image
     // style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}
-    <main className="bg-black h-screen bg-black" style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
+    <main className="bg-black h-screen bg-black" style={{backgroundImage: "url('/back.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
       <Head>
-          <title> The Jones Archives</title>
+          <title>Resume</title>
       </Head>
       
       <Navbar/>
       
-      <div className="max-w-screen h-5/6 ml-8 p-8 p-8 pt-0 text-white font-mono overflow-y-auto scrollbar-hide  ">
+      <div className="max-w-screen h-5/6 ml-8 p-8 justify-center pt-0 text-white font-mono overflow-y-auto scrollbar-hide  ">
         
         
         <header className="mb-8">

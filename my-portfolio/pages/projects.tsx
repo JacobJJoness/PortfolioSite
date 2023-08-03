@@ -11,7 +11,7 @@ import projects from '../data/projects';
 
 const ProjectsPage = () => {
   return (
-    <div className="bg-black min-h-screen py-1 px-1 ">
+    <div className="bg-black min-h-screen py-1 px-1 "style={{backgroundImage: "url('/back.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
       <Navbar/>
         
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
