@@ -23,7 +23,7 @@ const ProjectsPage = () => {
                 <video
                   className="w-full rounded-lg"
                   controls
-                  autoPlay
+                  autoPlay={false}
                   loop
                   muted
                   playsInline
