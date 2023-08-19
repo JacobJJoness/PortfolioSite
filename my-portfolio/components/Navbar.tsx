@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <Link href="/">
             <Image
-                className="h-8 w-8"
+                className="h-10 w-10 drop-shadow-[0_0_.2rem_#ff0303]"
                 src="/jjj.png"
                 alt="JJ Logo"
                 width={80}
@@ -23,12 +23,12 @@ const Navbar = () => {
       {/* Links (Right Hand Side) */}
       <div className="flex items-center space-x-16 pr-8">
         {/* First Github Link */}
-        <Link className="text-white font-mono" href="https://www.linkedin.com/in/jacob-jones-b5bb8220b/">
+        <Link className=" font-mono" href="https://www.linkedin.com/in/jacob-jones-b5bb8220b/">
           LinkedIn
         </Link>
 
       
-        <Link className="text-white font-mono" href="https://github.com/JacobJJoness">
+        <Link className=" font-mono" href="https://github.com/JacobJJoness">
           Github
         </Link>
       </div>

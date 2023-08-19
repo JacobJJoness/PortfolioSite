@@ -1,7 +1,7 @@
 const projects = [
     {
       title: 'Portfolio Website',
-      description: 'This website was created with a minimal and simplistic design in mind. I used React based technologies NextJs and Tailwindcss to create this project.',
+      description: 'This website was created with a minimal and simplistic design in mind, and of course supports a light and dark mode(my favorite is darkmode). I used React based technologies NextJs and Tailwindcss to create this project.',
       videoUrl: '', // Replace with the actual video URL
       gifUrl: '/portfolio.gif', // Replace with the actual GIF URL
     },
