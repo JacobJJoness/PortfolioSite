@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 import 'tailwindcss/tailwind.css';
+import "../app/globals.css";
 
 
 const Resume = () => {
@@ -23,7 +24,7 @@ const Resume = () => {
         
         <header className="mb-8">
           
-          <h1 className="text-4xl font-bold mb-2 text=white">JACOB JONES</h1>
+          <h1 className="text-4xl font-bold mb-2 ">JACOB JONES</h1>
           <p>genjacob20@gmail.com | 361-585-9668 | 802 Purdue Rd., Corpus Christi, TX, 78418 | LinkedIN</p>
         </header>
 
