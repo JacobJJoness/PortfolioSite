@@ -33,7 +33,7 @@ const ProjectsPage = () => {
                     src={project.videoUrl}
                   />
                 ) : (
-                  <Image className="w-full rounded-lg font-mono" src={project.gifUrl} alt={`Project ${index + 1}`} />
+                  <Image className="w-full rounded-lg font-mono " width="400" height="300" src={project.gifUrl} alt={`Project ${index + 1}`} />
                 )}
                 <h2 className="text-xl text-white font-mono mt-4">{project.title}</h2>
                 <div className="mt-4 text-white font-mono">
