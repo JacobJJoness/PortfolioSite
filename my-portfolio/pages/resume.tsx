@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
+import ParticleBackground from '@/components/ParticleBackground';
 import 'tailwindcss/tailwind.css';
 import "../app/globals.css";
 
@@ -13,13 +14,15 @@ const Resume = () => {
     //Comment is for using a background image. Paste into line below to use a image
     // style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}
     <main className=" h-screen " style={{backgroundImage: "url('/back.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
+      <ParticleBackground></ParticleBackground>
       <Head>
           <title>Resume</title>
       </Head>
       
       <Navbar/>
       
-      <div className="max-w-screen h-5/6 ml-8 p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide  ">
+
+      <div className=" z-20 relative max-w-screen h-5/6 ml-8 p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide  ">
         
         
         <header className="mb-8">
