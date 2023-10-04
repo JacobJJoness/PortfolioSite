@@ -13,6 +13,13 @@ const projects = [
       gifUrl: '', // Replace with the actual GIF URL
       gitLink: ''
     },
+    {
+      title: 'DigiB',
+      description: 'A Python soundboard written with CustomTKinter. The soundboard uses threading and Customtkinter to deliver a smoother user experience, as well as storing the selected sounds within the project itself, meaning original copies do not have to be saved after entry into the Soundboard.',
+      videoUrl: '/SoundDemo.mp4', // Replace with the actual video URL
+      gifUrl: '', // Replace with the actual GIF URL
+      gitLink: 'https://github.com/JacobJJoness/SoundBoard'
+    },
     
 
     
