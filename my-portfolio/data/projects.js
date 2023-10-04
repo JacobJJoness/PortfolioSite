@@ -11,7 +11,7 @@ const projects = [
       description: 'A shell written in C. The shell is intended for Linux operating systems utilizes multi-threading to preform given commands. The shell is capable of executing any Linux OS commands.',
       videoUrl: '/TamuccShell.mp4', // Replace with the actual video URL
       gifUrl: '', // Replace with the actual GIF URL
-      gitLink: ''
+      gitLink: 'https://github.com/JacobJJoness/TamuccShell'
     },
     {
       title: 'DigiB',
