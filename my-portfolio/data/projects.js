@@ -25,7 +25,7 @@ const projects = [
       description: 'This visualizer is written in python using Pygame. Once the play button is pressed the bars are slowly sorted by height to form a gradient. The program uses interpolation between red and blue rgb values to create a really smooth gradient. ',
       videoUrl: '', // Replace with the actual video URL
       gifUrl: '/InsertGif.gif', // Replace with the actual GIF URL
-      gitLink: 'https://github.com/https://github.com/JacobJJoness/Algorithm-Visualizer/SoundBoard'
+      gitLink: 'https://github.com/JacobJJoness/Algorithm-Visualizer'
     },
     
 
