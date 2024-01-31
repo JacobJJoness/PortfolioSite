@@ -27,6 +27,20 @@ const projects = [
       gifUrl: '/InsertGif.gif', // Replace with the actual GIF URL
       gitLink: 'https://github.com/JacobJJoness/Algorithm-Visualizer'
     },
+    {
+      title: 'Yum Food Tracker',
+      description: 'An attempt at a food tracking app. The intention was to create a food tracking app that would allow users to track whats in their kitchen by photographing their receipts and using an AI backend to provide recipe recommendations and warn of incoming potential expiration dates.',
+      videoUrl: '/TamuccShell.mp4', // Replace with the actual video URL
+      gifUrl: '', // Replace with the actual GIF URL
+      gitLink: ''
+    },
+    {
+      title: 'Iconik Innovations',
+      description: 'A side hustle to create website solutions for local businesses in my area at a rate of $600 dollars per month while in development. I am creating a website for a local smokeshop, and plan to keep advertising my services to other local businesses.',
+      videoUrl: '', // Replace with the actual video URL
+      gifUrl: '/Iconik.png', // Replace with the actual GIF URL
+      gitLink: ''
+    }
     
 
     
