@@ -22,7 +22,7 @@ const Resume = () => {
       <Navbar/>
       
 
-      <div className=" z-20 relative max-w-screen h-5/6 ml-8 p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide  ">
+      <div className=" z-20 relative max-w-screen h-5/6 rounded-xl  p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide  ">
         
         
         <header className="mb-8">
