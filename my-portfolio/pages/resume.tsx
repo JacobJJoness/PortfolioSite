@@ -22,13 +22,13 @@ const Resume = () => {
       <Navbar/>
       
 
-      <div className=" z-20 relative max-w-screen h-5/6 rounded-xl  p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide  ">
+      <div className=" z-20 relative max-w-screen h-5/6 rounded-xl  p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide bg-gray-200/50 dark:bg-zinc-800/30  ">
         
         
         <header className="mb-8">
           
-          <h1 className="text-4xl font-bold mb-2 ">JACOB JONES</h1>
-          <p>genjacob20@gmail.com | 361-585-9668 | 802 Purdue Rd., Corpus Christi, TX, 78418 | LinkedIN</p>
+          <h1 className="text-4xl font-bold mt-10 mb-2 text-center ">JACOB JONES</h1>
+          <p className="text-center ">genjacob20@gmail.com | 361-585-9668 | 802 Purdue Rd., Corpus Christi, TX, 78418 | LinkedIN</p>
         </header>
 
         <section className="mb-8">
@@ -43,13 +43,14 @@ const Resume = () => {
 
           <h2 className="text-2xl font-bold mb-2">EXPERIENCE</h2>
           <div className="mb-6">
-            <h3 className="text-lg font-bold">Half Price Books (May 2022 - June 2023)</h3>
-            <p className="mb-2">Bookseller</p>
+            <h3 className="text-lg font-bold">Freelance Web Development (December 2023 - Present)</h3>
+            <p className="mb-2">Developer</p>
             <ul className="list-disc ml-8 mb-4">
-              <li>Responsible for maintaining store cleanliness and shopability.</li>
-              <li>Provide excellent customer care and service.</li>
-              <li>Handle used book purchasing and donations.</li>
-              <li>Cash handling and efficient POS system utilization.</li>
+              <li>Delivering comprehensive product data analytics through the categorization and detailed examination of product data to assess its value and utility.</li>
+              <li>Ensuring project compliance with local, regional, and state regulations to uphold legal standards.</li>
+              <li>Leveraging React web technologies and Python for a variety of pertinent tasks, with the flexibility to adapt to other web development tools as project requirements evolve.</li>
+              <li>Actively engaging in networking activities to identify and secure new client relationships.</li>
+              <li>Collaborating with clients to establish realistic project scopes and objectives.</li>
             </ul>
           </div>
 
