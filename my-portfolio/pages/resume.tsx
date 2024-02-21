@@ -22,7 +22,7 @@ const Resume = () => {
       <Navbar/>
       
 
-      <div className=" z-20 relative max-w-screen h-5/6 rounded-xl  p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide bg-gray-200/50 dark:bg-zinc-800/30  ">
+      <div className=" z-20 relative max-w-screen h-5/6 rounded-xl p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide bg-gray-200/50 dark:bg-zinc-800/30  ">
         
         
         <header className="mb-8">
@@ -74,7 +74,7 @@ const Resume = () => {
         <section>
 
           <h2 className="text-2xl font-bold mb-2">SKILLS</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-2">
             <div>
               <h3 className="text-lg font-bold mb-2">Programming Languages</h3>
               <p>Python, C++, React, NextJs, Tailwind, Java, JavaScript</p>
