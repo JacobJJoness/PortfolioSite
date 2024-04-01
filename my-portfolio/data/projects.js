@@ -33,9 +33,9 @@ const projects = [
     },
     {
       title: 'Yum Food Tracker',
-      description: 'An attempt at a food tracking app. The intention was to create a food tracking app that would allow users to track whats in their kitchen by photographing their receipts and using an AI backend to provide recipe recommendations and warn of incoming potential expiration dates.',
-      videoUrl: '/TamuccShell.mp4', // Replace with the actual video URL
-      gifUrl: '', // Replace with the actual GIF URL
+      description: 'An attempt at a food tracking app. The intention was to create a food tracking app that would allow users to track whats in their kitchen by photographing their receipts and using an AI backend to provide recipe recommendations and warn of incoming potential expiration dates. Project group lost contact and work subsequently ceased.',
+      videoUrl: '', // Replace with the actual video URL
+      gifUrl: '/yummy.gif', // Replace with the actual GIF URL
       gitLink: '',
       linkText: ''
     },
