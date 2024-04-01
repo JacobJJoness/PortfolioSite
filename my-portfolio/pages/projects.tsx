@@ -41,7 +41,7 @@ const ProjectsPage = () => {
               <div className="mt-4 font-mono">
                 <p>{project.description}</p>
                 {project.gitLink ? (
-                  <Link href = {project.gitLink} className ="text-blue-500 underline" >View on Github</Link>
+                  <Link href = {project.gitLink} className ="text-blue-500 underline" >{project.linkText}</Link>
                 ): (null)}
               </div>
             </div>
