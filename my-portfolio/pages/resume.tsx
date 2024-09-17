@@ -8,42 +8,53 @@ import ParticleBackground from '@/components/ParticleBackground';
 import 'tailwindcss/tailwind.css';
 import "../app/globals.css";
 
-
 const Resume = () => {
   return (
-    //Comment is for using a background image. Paste into line below to use a image
-    // style={{backgroundImage: "url('/red.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}
-    <main className=" h-screen " style={{backgroundImage: "url('/back.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
-      <ParticleBackground></ParticleBackground>
+    <main className="h-screen" style={{backgroundImage: "url('/back.png')", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+      <ParticleBackground />
       <Head>
-          <title>Resume</title>
+        <title>Resume</title>
       </Head>
       
-      <Navbar/>
+      <Navbar />
       
-
-      <div className=" z-20 relative max-w-screen h-5/6 rounded-xl p-8 justify-center pt-0  font-mono overflow-y-auto scrollbar-hide bg-gray-200/50 dark:bg-zinc-800/30  ">
-        
+      <div className="z-20 relative max-w-screen h-5/6 rounded-xl p-8 justify-center pt-0 font-mono overflow-y-auto scrollbar-hide bg-gray-200/50 dark:bg-zinc-800/30">
         
         <header className="mb-8">
-          
-          <h1 className="text-4xl font-bold mt-10 mb-2 text-center ">JACOB JONES</h1>
-          <p className="text-center ">genjacob20@gmail.com | 361-585-9668 | 802 Purdue Rd., Corpus Christi, TX, 78418 | LinkedIN</p>
+          <h1 className="text-4xl font-bold mt-10 mb-2 text-center">JACOB JONES</h1>
+          <p className="text-center">genjacob20@gmail.com | 361-585-9668 | 802 Purdue Rd., Corpus Christi, TX, 78418 | LinkedIN</p>
         </header>
 
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-2">EDUCATION</h2>
           <p className="mb-2">Bachelor of Science in Computer Science</p>
           <p className="mb-2">Texas A&M University – Corpus Christi</p>
-          <p className="mb-4">Expected Graduation - Spring 2024</p>
+          <p className="mb-4">Expected Graduation - December 2024</p>
           <p>Concentration: Systems Programming</p>
         </section>
 
         <section className="mb-8">
-
           <h2 className="text-2xl font-bold mb-2">EXPERIENCE</h2>
+          
+          {/* Most recent experience first */}
           <div className="mb-6">
-            <h3 className="text-lg font-bold">Freelance Web Development (December 2023 - Present)</h3>
+            <h3 className="text-lg font-bold">Field Service Technician (July 2024 - Present)</h3>
+            <p className="mb-2">CHRISTUS Health · Full-time</p>
+            <p className="mb-2">Corpus Christi, Texas, United States · On-site</p>
+            <ul className="list-disc ml-8 mb-4">
+              <li>Responded to critical device issues across the hospital, minimizing disruptions to patient care.</li>
+              <li>Managed the shipment, installation, and maintenance of devices and hardware across multiple sites.</li>
+              <li>Conducted thorough hardware and software troubleshooting to resolve technical issues efficiently.</li>
+              <li>Delivered high-quality, compassionate, and detail-oriented client support to hospital staff.</li>
+              <li>Optimized time management by consistently attending all designated meetings and fulfilling responsibilities.</li>
+              <li>Provided detailed documentation of tasks and resolutions using the ServiceNow ticketing system.</li>
+              <li>Collaborated closely with fellow Field Service Technicians and hospital personnel to ensure fast and friendly service.</li>
+              <li>Assisted with the installation and maintenance of client devices and hardware to ensure seamless operations.</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-bold">Freelance Web Development (December 2023 - August 2024)</h3>
             <p className="mb-2">Developer</p>
             <ul className="list-disc ml-8 mb-4">
               <li>Delivering comprehensive product data analytics through the categorization and detailed examination of product data to assess its value and utility.</li>
@@ -72,9 +83,8 @@ const Resume = () => {
         </section>
 
         <section>
-
           <h2 className="text-2xl font-bold mb-2">SKILLS</h2>
-          <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-2">
             <div>
               <h3 className="text-lg font-bold mb-2">Programming Languages</h3>
               <p>Python, C++, React, NextJs, Tailwind, Java, JavaScript</p>
