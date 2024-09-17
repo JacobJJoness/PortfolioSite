@@ -53,7 +53,7 @@ const GitHubRepos: React.FC = () => {
       <Navbar />
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-mono mb-8">Jacob's Public Github Repos</h1>
+        <h1 className="text-4xl font-mono mb-8">Jacob&apos;s Public Github Repos</h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {repos.map((repo) => (
