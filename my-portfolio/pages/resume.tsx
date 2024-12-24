@@ -51,7 +51,7 @@ const Resume = () => {
             <h2 className="text-2xl font-bold mb-2">EDUCATION</h2>
             <p className="mb-2">Bachelor of Science in Computer Science</p>
             <p className="mb-2">Texas A&M University – Corpus Christi</p>
-            <p>Expected Graduation: December 2024</p>
+            <p>Graduated: December 2024</p>
             <p className="mt-2">Concentration: Systems Programming</p>
           </div>
         </section>
