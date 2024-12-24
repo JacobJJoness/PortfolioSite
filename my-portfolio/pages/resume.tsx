@@ -10,7 +10,7 @@ import FramerBackground from '@/components/FramerBackground';
 
 const Resume = () => {
   return (
-    <main className="h-screen">
+    <main className="relative min-h-screen py-1 px-1">
       <HomeBackgroundParticles />
       <FramerBackground />
       <Head>
@@ -24,7 +24,7 @@ const Resume = () => {
           <h1 className="text-4xl font-bold mt-10 mb-2 ">JACOB JONES</h1>
           <p className="mb-2">802 Purdue Rd., Corpus Christi, TX 748418 | (361) 585-9668 | genjacob20@gmail.com | LinkedIn</p>
           <p className="mb-4">Detail-Oriented | Analytical | Critical Thinker</p>
-          <p>Computer Science student at Texas A&M, graduating in December 2024, with over two years of experience in software and hardware troubleshooting. Skilled in Web Design, Programming, and Information Technology. Proficient in Microsoft Office, Knowledge Base utilization, Interpersonal Skills, Advertising, and Customer Service.</p>
+          <p>Computer Science student at Texas A&M, graduated in December 2024, with over two years of experience in software and hardware troubleshooting. Skilled in Web Design, Programming, and Information Technology. Proficient in Microsoft Office, Knowledge Base utilization, Interpersonal Skills, Advertising, and Customer Service.</p>
         </header>
 
         {/* Skills and Education Section */}

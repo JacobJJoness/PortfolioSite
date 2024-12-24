@@ -27,13 +27,13 @@ export default function SoftMovingLights() {
   };
 
   return (
-    <div className="fixed inset-0 -z-10 bg-black">
+    <div className="fixed inset-0 -z-10 dark:bg-black">
       {Array.from({ length: 5 }).map((_, i) => {
         const randomColor = colors[Math.floor(Math.random() * colors.length)]; // Assign random color
         return (
           <motion.div
             key={i}
-            className="absolute w-80 h-80 rounded-full"
+            className="absolute w-80 h-80 rounded-full "
             style={{
               background: `radial-gradient(circle, ${randomColor} 30%, transparent)`,
               filter: "blur(150px)",
