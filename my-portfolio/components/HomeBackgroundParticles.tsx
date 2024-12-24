@@ -33,7 +33,7 @@ const particlesLoaded =useCallback(async(container: Container | undefined) => {
                         value: "transparent",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 30,
                 interactivity: {
                     events: {
                         
@@ -76,7 +76,7 @@ const particlesLoaded =useCallback(async(container: Container | undefined) => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 1,
+                        speed: .2,
                         straight: false,
                     },
                     number: {

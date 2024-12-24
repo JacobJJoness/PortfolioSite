@@ -5,16 +5,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Navbar from '@/components/Navbar';
-import ProjectParticles from '@/components/ProjectParticles';
+import HomeBackgroundParticles from '@/components/HomeBackgroundParticles';
+import FramerBackground from '@/components/FramerBackground';
 
 // Replace this with your actual project data
 import projects from '../data/projects';
 
 const ProjectsPage = () => {
   return (
-    <div className=" relative min-h-screen py-1 px-1 "style={{backgroundImage: "url('/back.png')",backgroundPosition: 'center',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}}>
-     
-      <ProjectParticles/>
+    <div className=" relative min-h-screen py-1 px-1 ">
+      <FramerBackground />
+      <HomeBackgroundParticles />
       <Navbar/>
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-mono mb-8">The Jones Archives</h1>

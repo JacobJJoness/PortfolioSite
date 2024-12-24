@@ -5,8 +5,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Navbar from '@/components/Navbar';
-import ProjectParticles from '@/components/ProjectParticles';
-
+import HomeBackgroundParticles from '@/components/HomeBackgroundParticles';
+import FramerBackground from '@/components/FramerBackground';
+import Home from '@/app/page';
 interface Repo {
   id: number;
   name: string;
@@ -43,13 +44,11 @@ const GitHubRepos: React.FC = () => {
   if (loading) return <p>Loading...</p>;
 
   return (
-    <div className="relative min-h-screen py-1 px-1" style={{
-      backgroundImage: "url('/back.png')",
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover'
-    }}>
-      <ProjectParticles />
+    <div className="relative min-h-screen py-1 px-1" 
+    >
+      
+      <FramerBackground />
+      <HomeBackgroundParticles /> 
       <Navbar />
 
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
