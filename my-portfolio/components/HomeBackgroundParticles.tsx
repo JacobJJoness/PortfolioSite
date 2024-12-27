@@ -27,8 +27,8 @@ const ParticleBackground = () => {
 
   const mobileConfig = isMobile
     ? {
-        number: { value: 20 }, // Fewer particles
-        move: { speed: 0.1 }, // Slower movement
+        number: { value: 10 }, // Fewer particles
+        move: { speed: 0.2 }, // Slower movement
         interactivity: { events: { onHover: { enable: false } } }, // Disable hover effects
       }
     : {};
